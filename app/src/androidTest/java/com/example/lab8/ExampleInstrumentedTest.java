@@ -10,6 +10,8 @@ import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 /**
  * Instrumented test, which will execute on an Android device.
  *
@@ -23,4 +25,5 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.example.lab8", appContext.getPackageName());
     }
+
 }
